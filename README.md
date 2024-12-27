@@ -1,6 +1,9 @@
 initialize_parameters(n): Initializes the weights and biases randomly based on the input size (n).
+
 relu(x): Implements the Rectified Linear Unit (ReLU) activation function.
+
 softmax(x): Implements the softmax activation function for output layer normalization.
+
 forward_propagation(x): Performs forward propagation through the network, calculating intermediate activations and outputs.
 one_hot_encode(Y): Converts target labels into one-hot encoded format.
 backward_propagation(z1, a1, z2, a2, x, y): Calculates gradients of the loss function with respect to the network's parameters.
